@@ -5,6 +5,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Expander icons",
     page_icon=":fire:",
+    initial_sidebar_state="expanded",
 )
 
 st.header("Icon support in st.expander", divider=True)
